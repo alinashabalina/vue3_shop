@@ -1,0 +1,11 @@
+.header {
+  &__button {
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    &-icon {
+      margin-right: 12px;
+    }
+  }
+}
