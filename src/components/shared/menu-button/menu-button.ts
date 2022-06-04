@@ -1,7 +1,7 @@
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: "HeaderButton",
+  name: "MenuButton",
   props: {
     title: {
       type: String,
@@ -11,6 +11,10 @@ export default defineComponent({
       type: String,
       required: true,
     },
+    mode: {
+      type: String,
+      required: true,
+    }
   },
   components: {},
   setup() {},

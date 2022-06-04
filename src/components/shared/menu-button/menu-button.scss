@@ -1,0 +1,24 @@
+.header {
+  &__button {
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    &-icon {
+      margin-right: 12px;
+    }
+  }
+}
+
+.dark {
+  color: #000000;
+}
+
+.light {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+}
