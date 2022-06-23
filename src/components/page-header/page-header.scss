@@ -1,56 +1,51 @@
 .header {
-  position: absolute;
-  width: 1160px;
+  position: relative;
+  max-width: 1160px;
+  min-width: 500px;
   height: 206px;
-  left: 140px;
-  top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  &__search-field {
+    position: absolute;
+    width: 144px;
+    height: 20px;
+    left: 60px;
+    top: 64px;
+    display: flex;
+    align-items: center;
+  }
   &__rectangle {
     position: absolute;
     width: 1160px;
     height: 186px;
-    left: 0px;
     top: 20px;
     background-color: #f7e296;
     &-logo {
-      margin-top: -20px;
+      position: absolute;
+      top: -20px;
       width: 163px;
       left: 60px;
-      margin-right: 870px;
     }
     &-menu {
       display: flex;
       position: absolute;
       width: 500px;
-      height: 20px;
-      left: 600px;
+      right: 60px;
       top: 64px;
-      &-item0 {
-        display:none;
+      &-spring12 {
+        flex-grow: 1;
       }
-      &-item1 {
-        position: absolute;
-        width: 44px;
-        height: 16px;
-        left: 24px;
+      &-item0 {
+        display: none;
       }
       &-item2 {
-        position: absolute;
-        width: 70px;
-        height: 20px;
-        left: 307px;
-      }
-      &-item3 {
-        position: absolute;
-        width: 70px;
-        height: 20px;
-        left: 440px;
+        margin-right: 41px;
       }
     }
     &-secondarymenu {
       position: absolute;
       width: 1040px;
-      height: 22px;
-      left: 60px;
+      right: 60px;
       top: 134px;
       display: flex;
       button {
@@ -64,8 +59,10 @@
         letter-spacing: 0.2;
         text-transform: uppercase;
       }
+      &-spring12 {
+        flex-grow: 1;
+      }
       &-item1 {
-        position: absolute;
         border: none;
         background-color: inherit;
         display: flex;
@@ -74,20 +71,16 @@
         }
       }
       &-item2 {
-        position: absolute;
         border: none;
         background-color: inherit;
-        left: 560px;
+        margin-right: 38px;
       }
       &-item3 {
-        position: absolute;
-        left: 700px;
         border: none;
         background-color: inherit;
+        margin-right: 111px;
       }
       &-item4 {
-        position: absolute;
-        left: 950px;
         border: none;
         background-color: inherit;
       }

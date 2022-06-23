@@ -1,11 +1,7 @@
 <template>
-  <div class="header__search">
-    <img class="header__search-icon" :src="icon" />
-    <input
-      type="search"
-      class="header__search-field"
-      placeholder="Поиск по сайту"
-    />
+  <div class="search">
+    <img class="search__icon" :src="icon" />
+    <input type="search" class="search__field" placeholder="Поиск по сайту" />
   </div>
 </template>
 
