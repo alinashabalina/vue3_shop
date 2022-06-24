@@ -1,0 +1,26 @@
+.category {
+  &__button {
+    border: none;
+    background: none;
+    &-container {
+      display: flex;
+      background-color: #f7e296;
+      height: 160px;
+      width: 160px;
+    }
+    &-icon {
+      margin: auto;
+      vertical-align: middle;
+    }
+    &-title {
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: 0.05em;
+      width: 160px;
+      text-align: left;
+    }
+  }
+}

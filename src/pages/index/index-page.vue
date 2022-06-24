@@ -1,5 +1,6 @@
 <template>
   <PageHeader></PageHeader>
+  <CategoryMenu></CategoryMenu>
   <PageFooter></PageFooter>
 </template>
 
