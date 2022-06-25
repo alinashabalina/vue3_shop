@@ -1,5 +1,12 @@
-.category{
-    &__menu{
-        display: flex
-    }
+.category {
+  &__menu {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    max-width: 1160px;
+    position: relative;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

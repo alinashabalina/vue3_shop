@@ -1,5 +1,6 @@
 <template>
     <div class="category__menu">
+        <!--add classes and margins to all buttons -->
         <CategoryButton title="Виртуальная реальность" icon="popular-1"></CategoryButton>
         <CategoryButton title="Моноподы для селфи" icon="popular-2"></CategoryButton>
         <CategoryButton title="Экшн-камеры" icon="popular-3"></CategoryButton>
