@@ -58,7 +58,7 @@
       height: 22px;
       left: 508px;
       top: 138px;
-      button {
+      &-item{
         font-family: "Gilroy";
         font-style: normal;
         font-weight: 800;
@@ -68,7 +68,7 @@
         text-transform: uppercase;
         border: none;
         background-color: inherit;
-        color: white;
+        color: white
       }
     }
     &-secondary {

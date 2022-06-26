@@ -12,9 +12,9 @@
     <address class="footer__address">г. Москва, ул. Строителей, 15</address>
     <address class="footer__tel">Тел.: +7 (495) 495-95-95</address>
     <div class="footer__menu-main">
-      <button class="footer__menu-main-item1">Доставка</button>
-      <button class="footer__menu-main-item2">Гарантия</button>
-      <button class="footer__menu-main-item3">Контакты</button>
+      <button class="footer__menu-main-item">Доставка</button>
+      <button class="footer__menu-main-item">Гарантия</button>
+      <button class="footer__menu-main-item">Контакты</button>
     </div>
     <img class="footer__rectangle" :src="require('@/assets/Rectangle 15.svg')" />
     <div class="footer__socials">
