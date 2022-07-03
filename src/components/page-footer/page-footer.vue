@@ -2,12 +2,18 @@
   <footer class="footer">
     <img class="footer__logo" :src="require('@/assets/-e-logo-y.svg')" />
     <div class="footer__menu-secondary">
-      <div class="footer__menu-secondary-item0">
+      <div class="footer__menu-secondary-item--noauth">
         <MenuButton title="Имя Фамилия" icon="icon_user" mode="light" />
       </div>
+      <div class="footer__menu-secondary-item">
       <MenuButton title="Войти" icon="icon_user" mode="light" />
+      </div>
+      <div class="footer__menu-secondary-item">
       <MenuButton title="Сравнить" icon="icon_chart" mode="light" />
+      </div>
+      <div class="footer__menu-secondary-item">
       <MenuButton title="Корзина" icon="icon_cart" mode="light" />
+      </div>
     </div>
     <address class="footer__address">г. Москва, ул. Строителей, 15</address>
     <address class="footer__tel">Тел.: +7 (495) 495-95-95</address>

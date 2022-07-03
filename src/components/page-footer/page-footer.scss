@@ -1,19 +1,18 @@
 .footer {
-  position: relative;
   height: 324px;
   background: #363636;
   &__logo {
     position: absolute;
     width: 163px;
     height: 35px;
-    left: 140px;
+    left: 90px;
     top: 64px;
   }
   &__rectangle {
     position: absolute;
     width: 80px;
     height: 7px;
-    left: 140px;
+    left: 90px;
     top: 239px;
   }
   &__address {
@@ -26,7 +25,7 @@
     position: absolute;
     width: 212px;
     height: 20px;
-    left: 135px;
+    left: 85px;
     top: 139px;
   }
   &__tel {
@@ -34,7 +33,7 @@
     position: absolute;
     width: 170px;
     height: 20px;
-    left: 1136px;
+    right: 70px;
     top: 139px;
     font-family: sans-serif;
     font-style: normal;
@@ -47,8 +46,11 @@
     position: absolute;
     width: 150px;
     height: 32px;
-    left: 652px;
     top: 227px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
     justify-content: space-between;
   }
   &__menu {
@@ -56,8 +58,11 @@
       position: absolute;
       width: 450px;
       height: 22px;
-      left: 508px;
       top: 138px;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
       &-item{
         font-family: "Gilroy";
         font-style: normal;
@@ -76,12 +81,14 @@
       position: absolute;
       width: 325px;
       height: 20px;
-      left: 990px;
+      right: 70px;
       top: 46px;
       justify-content: space-between;
 
-      &-item0 {
-        display: none;
+      &-item {
+        &--noauth{
+          display: none;
+        }
       }
     }
   }
