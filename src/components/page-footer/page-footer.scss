@@ -1,20 +1,42 @@
 .footer {
   height: 324px;
   background: #363636;
+  display: flex;
+  justify-content: space-evenly;
+
+  &__wrapper {
+    &--startaligned {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: flex-start;
+    }
+
+    &--centeraligned {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+    &--endaligned {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: flex-end;
+    }
+  }
+
   &__logo {
-    position: absolute;
     width: 163px;
     height: 35px;
-    left: 90px;
-    top: 64px;
   }
+
   &__rectangle {
-    position: absolute;
     width: 80px;
     height: 7px;
-    left: 90px;
-    top: 239px;
   }
+
   &__address {
     color: white;
     font-family: sans-serif;
@@ -22,48 +44,42 @@
     font-weight: 300;
     font-size: 15px;
     line-height: 20px;
-    position: absolute;
     width: 212px;
     height: 20px;
-    left: 85px;
-    top: 139px;
   }
+
   &__tel {
     color: white;
-    position: absolute;
     width: 170px;
     height: 20px;
-    right: 70px;
-    top: 139px;
     font-family: sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 15px;
     line-height: 20px;
   }
+
   &__socials {
     display: flex;
-    position: absolute;
     width: 150px;
     height: 32px;
-    top: 227px;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
     justify-content: space-between;
   }
+
   &__menu {
     &-main {
-      position: absolute;
       width: 450px;
       height: 22px;
-      top: 138px;
       margin-left: auto;
       margin-right: auto;
       left: 0;
       right: 0;
-      &-item{
+
+      &-item {
         font-family: "Gilroy";
         font-style: normal;
         font-weight: 800;
@@ -76,17 +92,15 @@
         color: white
       }
     }
+
     &-secondary {
       display: flex;
-      position: absolute;
       width: 325px;
       height: 20px;
-      right: 70px;
-      top: 46px;
       justify-content: space-between;
 
       &-item {
-        &--noauth{
+        &--noauth {
           display: none;
         }
       }

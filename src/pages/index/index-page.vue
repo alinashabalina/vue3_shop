@@ -1,11 +1,11 @@
 <template>
-  <div class="page__wrapper">
+  <div class="wrapper">
     <PageHeader />
   </div>
-  <div class="page__wrapper">
+  <div class="wrapper">
     <CategoryMenu />
   </div>
-  <div class="page__wrapper">
+  <div class="wrapper">
     <PageFooter />
   </div>
 </template>

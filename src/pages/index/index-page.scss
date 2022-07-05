@@ -1,11 +1,9 @@
-.page {
-    &__wrapper {
-        position: relative;
-        box-sizing: border-box;
-        width: 1200px;
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+.wrapper {
+    position: relative;
+    box-sizing: border-box;
+    width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
