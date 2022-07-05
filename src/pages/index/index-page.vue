@@ -1,14 +1,15 @@
 <template>
-<div class="page__wrapper">
-  <PageHeader></PageHeader>
+  <div class="page__wrapper">
+    <PageHeader />
   </div>
   <div class="page__wrapper">
-  <CategoryMenu></CategoryMenu>
+    <CategoryMenu />
   </div>
   <div class="page__wrapper">
-  <PageFooter></PageFooter>
+    <PageFooter />
   </div>
 </template>
 
 <script lang="ts" src="./index-page.ts"></script>
-<style lang="scss" src="./index-page.scss"></style>
+<style lang="scss" src="./index-page.scss">
+</style>
