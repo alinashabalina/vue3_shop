@@ -32,9 +32,13 @@
     height: 35px;
   }
 
+  &__logo-html{
+    height: 32px;
+  }
+
   &__rectangle {
     width: 80px;
-    height: 7px;
+    height: 32px;
   }
 
   &__address {
@@ -89,14 +93,14 @@
         text-transform: uppercase;
         border: none;
         background-color: inherit;
-        color: white
+        color: white;
       }
-    }
+  }
 
     &-secondary {
       display: flex;
       width: 325px;
-      height: 20px;
+      height: 35px;
       justify-content: space-between;
 
       &-item {
@@ -105,5 +109,9 @@
         }
       }
     }
+  }
+
+  &__missing-element{
+    height: 35px;
   }
 }

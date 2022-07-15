@@ -4,7 +4,7 @@
       <img class="header__rectangle-logo" :src="require('@/assets/-e-logo.svg')">
       <HeaderSearch class="header__search-field" :icon="require('@/assets/icon_search.svg')"></HeaderSearch>
       <div class="header__rectangle-menu">
-        <div class="header__rectangle-menu-item--noauth">
+        <div class="header__rectangle-menu-item header__rectangle-menu-item--noauth">
           <MenuButton title="Имя Фамилия" icon="icon_user" mode="dark" />
         </div>
         <div class="header__rectangle-menu-item">
