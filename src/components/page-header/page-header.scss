@@ -1,0 +1,82 @@
+.header {
+
+  &__search-field {
+    display: flex;
+    align-items: center;
+    width: 50%;
+  }
+
+  &__rectangle {
+    background-color: #f7e296;
+    position: relative;
+    height: 206px;
+    padding: 44px 60px 0 60px;
+    box-sizing: border-box;
+
+    &-wrapper {
+      display: flex;
+    }
+
+    &-logo {
+      position: absolute;
+      top: -20px;
+      width: 163px;
+      left: 60px;
+    }
+
+    &-menu {
+      display: flex;
+      width: 50%;
+
+      &-item {
+        &--noauth {
+          display: none;
+        }
+
+        &--compare {
+          margin-left: auto;
+          margin-right: 40px;
+        }
+      }
+    }
+
+    &-secondarymenu {
+      position: absolute;
+      width: 1040px;
+      right: 60px;
+      top: 134px;
+      display: flex;
+
+      button {
+        border: none;
+        background-color: inherit;
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.2px;
+        text-transform: uppercase;
+        display: flex;
+      }
+
+      &-item {
+        border: none;
+        background-color: inherit;
+
+        &-pic {
+          margin-left: 4px;
+        }
+
+        &--choose {
+          margin-right: auto;
+        }
+
+        &--warranty {
+          margin-right: 100px;
+          margin-left: 60px;
+        }
+      }
+    }
+  }
+}

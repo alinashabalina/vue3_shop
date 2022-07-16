@@ -1,0 +1,96 @@
+.footer {
+  height: 324px;
+  background: #363636;
+  padding: 46px 80px 65px 80px;
+  box-sizing: border-box;
+
+  &__wrapper {
+    display: flex;
+
+    &--spacebetween {
+      justify-content: space-between;
+    }
+
+    &--secondrow {
+      margin-top: 40px;
+      margin-bottom: 70px;
+    }
+  }
+
+  &__logo {
+    width: 163px;
+    height: 35px;
+    margin-right: auto;
+  }
+
+  &__logo-html {
+    height: 32px;
+  }
+
+  &__rectangle {
+    width: 80px;
+    height: 32px;
+  }
+
+  &__address {
+    color: white;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    height: 20px;
+  }
+
+  &__tel {
+    color: white;
+    height: 20px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  &__socials {
+    height: 32px;
+
+    &-icon {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+
+  &__menu {
+    &-main {
+      height: 22px;
+
+      &-item {
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        border: none;
+        background-color: inherit;
+        color: white;
+      }
+    }
+
+    &-secondary {
+      display: flex;
+      width: 325px;
+      height: 35px;
+      justify-content: space-between;
+
+      &-item {
+        &--noauth {
+          display: none;
+        }
+      }
+    }
+  }
+
+}

@@ -1,14 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+ <IndexPage1></IndexPage1>
 </template>
 
-<script>
+<script lang="ts">
+import { Options, Vue } from 'vue-class-component';
+import IndexPage1 from './pages/index/index-page.vue';
 
-export default {
-  name: 'App',
+@Options({
   components: {
-  }
-}
+    IndexPage1,
+  },
+})
+export default class App extends Vue {}
 </script>
 
 <style>
