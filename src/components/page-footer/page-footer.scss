@@ -1,38 +1,29 @@
 .footer {
   height: 324px;
   background: #363636;
-  display: flex;
-  justify-content: space-evenly;
+  padding: 46px 80px 65px 80px;
+  box-sizing: border-box;
 
   &__wrapper {
-    &--startaligned {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      align-items: flex-start;
+    display: flex;
+
+    &--spacebetween {
+      justify-content: space-between;
     }
 
-    &--centeraligned {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      align-items: center;
-    }
-
-    &--endaligned {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      align-items: flex-end;
+    &--secondrow {
+      margin-top: 40px;
+      margin-bottom: 70px;
     }
   }
 
   &__logo {
     width: 163px;
     height: 35px;
+    margin-right: auto;
   }
 
-  &__logo-html{
+  &__logo-html {
     height: 32px;
   }
 
@@ -48,13 +39,11 @@
     font-weight: 300;
     font-size: 15px;
     line-height: 20px;
-    width: 212px;
     height: 20px;
   }
 
   &__tel {
     color: white;
-    width: 170px;
     height: 20px;
     font-family: sans-serif;
     font-style: normal;
@@ -64,24 +53,17 @@
   }
 
   &__socials {
-    display: flex;
-    width: 150px;
     height: 32px;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    justify-content: space-between;
+
+    &-icon {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
   }
 
   &__menu {
     &-main {
-      width: 450px;
       height: 22px;
-      margin-left: auto;
-      margin-right: auto;
-      left: 0;
-      right: 0;
 
       &-item {
         font-family: "Gilroy";
@@ -95,7 +77,7 @@
         background-color: inherit;
         color: white;
       }
-  }
+    }
 
     &-secondary {
       display: flex;
@@ -111,7 +93,4 @@
     }
   }
 
-  &__missing-element{
-    height: 35px;
-  }
 }
