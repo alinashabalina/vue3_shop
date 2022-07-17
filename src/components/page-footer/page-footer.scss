@@ -1,7 +1,11 @@
+$margin-step: 4px;
+$light-black: #363636;
+$dark-white: #FFFFFF;
+
 .footer {
   height: 324px;
-  background: #363636;
-  padding: 46px 80px 65px 80px;
+  background: $light-black;
+  padding: 11*$margin-step 20*$margin-step 16*$margin-step 20*$margin-step;
   box-sizing: border-box;
 
   &__wrapper {
@@ -12,8 +16,8 @@
     }
 
     &--secondrow {
-      margin-top: 40px;
-      margin-bottom: 70px;
+      margin-top: 10*$margin-step;
+      margin-bottom: 17*$margin-step;
     }
   }
 
@@ -21,6 +25,10 @@
     width: 163px;
     height: 35px;
     margin-right: auto;
+
+    &:hover {
+      opacity: 0.6;
+    }
   }
 
   &__logo-html {
@@ -33,7 +41,8 @@
   }
 
   &__address {
-    color: white;
+    color: $dark-white;
+    opacity: 0.6;
     font-family: sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -43,7 +52,8 @@
   }
 
   &__tel {
-    color: white;
+    color: $dark-white;
+    opacity: 0.6;
     height: 20px;
     font-family: sans-serif;
     font-style: normal;
@@ -56,8 +66,8 @@
     height: 32px;
 
     &-icon {
-      margin-left: 10px;
-      margin-right: 10px;
+      margin-left: 3*$margin-step;
+      margin-right: 3*$margin-step;
     }
   }
 
@@ -75,7 +85,11 @@
         text-transform: uppercase;
         border: none;
         background-color: inherit;
-        color: white;
+        color: $dark-white;
+
+        &:hover {
+          opacity: 0.6;
+        }
       }
     }
 
@@ -86,8 +100,15 @@
       justify-content: space-between;
 
       &-item {
+        color: $dark-white;
+        opacity: 0.6;
+
         &--noauth {
           display: none;
+        }
+
+        &:hover {
+          opacity: 0.8;
         }
       }
     }

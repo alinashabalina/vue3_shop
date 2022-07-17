@@ -1,17 +1,24 @@
+$light-yellow: #f7e296;
+$margin-step: 4px;
+
+
 .search {
   ::placeholder {
-    color: #000000;
-    opacity: 30%;
     font-size: 15px;
+    opacity: 0.2;
+  }
+
+  :hover::placeholder {
+    opacity: 0.7;
   }
 
   &__icon {
-    margin-right: 18px;
+    margin-right: 5*$margin-step;
   }
 
   &__field {
     border: none;
     width: 125px;
-    background-color: #f7e296;
+    background-color: $light-yellow;
   }
 }

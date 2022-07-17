@@ -1,17 +1,28 @@
+$light-yellow: #f7e296;
+$dark-yellow: #F0C52E;
+
+
 .category {
   &__button {
     border: none;
     background: none;
+
     &-container {
       display: flex;
-      background-color: #f7e296;
+      background-color: $light-yellow;
       height: 160px;
       width: 160px;
+
+      &:hover {
+        background-color: $dark-yellow;
+      }
     }
+
     &-icon {
       margin: auto;
       vertical-align: middle;
     }
+
     &-title {
       font-family: "Gilroy";
       font-style: normal;

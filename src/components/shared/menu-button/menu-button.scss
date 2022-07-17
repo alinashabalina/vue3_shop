@@ -1,21 +1,26 @@
+$dark-black: #000000;
+$dark-white: #ffffff;
+$margin-step: 4px;
+
 .header {
   &__button {
     border: none;
     background: none;
     display: flex;
     align-items: center;
+
     &-icon {
-      margin-right: 12px;
+      margin-right: 3*$margin-step;
     }
   }
 }
 
 .dark {
-  color: #000000;
+  color: $dark-black;
 }
 
 .light {
-  color: #ffffff;
+  color: $dark-white;
   font-family: sans-serif;
   font-style: normal;
   font-weight: 300;

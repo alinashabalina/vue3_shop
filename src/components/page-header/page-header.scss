@@ -1,3 +1,6 @@
+$light-yellow: #F7E296;
+$margin-step: 4px;
+
 .header {
 
   &__search-field {
@@ -7,10 +10,10 @@
   }
 
   &__rectangle {
-    background-color: #f7e296;
+    background-color: $light-yellow;
     position: relative;
     height: 206px;
-    padding: 44px 60px 0 60px;
+    padding: 11*$margin-step 15*$margin-step 0 15*$margin-step;
     box-sizing: border-box;
 
     &-wrapper {
@@ -19,9 +22,13 @@
 
     &-logo {
       position: absolute;
-      top: -20px;
+      top: -5*$margin-step;
       width: 163px;
-      left: 60px;
+      left: 15*$margin-step;
+
+      &:hover {
+        opacity: 0.6;
+      }
     }
 
     &-menu {
@@ -35,17 +42,19 @@
 
         &--compare {
           margin-left: auto;
-          margin-right: 40px;
+          margin-right: 10*$margin-step;
+        }
+
+        &:hover {
+          opacity: 0.6;
         }
       }
     }
 
     &-secondarymenu {
-      position: absolute;
       width: 1040px;
-      right: 60px;
-      top: 134px;
       display: flex;
+      margin-top: 12*$margin-step;
 
       button {
         border: none;
@@ -65,7 +74,7 @@
         background-color: inherit;
 
         &-pic {
-          margin-left: 4px;
+          margin-left: $margin-step;
         }
 
         &--choose {
@@ -73,8 +82,12 @@
         }
 
         &--warranty {
-          margin-right: 100px;
-          margin-left: 60px;
+          margin-right: 25*$margin-step;
+          margin-left: 15*$margin-step;
+        }
+
+        &:hover {
+          opacity: 0.6;
         }
       }
     }
