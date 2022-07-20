@@ -1,0 +1,32 @@
+$dark-white: #FFFFFF;
+$margin-step: 4px;
+
+.rectangle-button {
+    border: none;
+    background-color: $dark-white;
+    width: 260px;
+    height: 22px;
+    position: relative;
+    padding: 0*$margin-step;
+
+    &__image {
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
+    &__text {
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        position: absolute;
+        top: $margin-step/4;
+        left: 0*$margin-step;
+        right: 0*$margin-step;
+
+    }
+}

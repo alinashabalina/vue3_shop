@@ -1,0 +1,60 @@
+$margin-step: 4px;
+$dark-black: #000000;
+
+.contact-info {
+    min-height: 500px;
+    display: block;
+    margin-top: 22*$margin-step;
+    margin-bottom: 22*$margin-step;
+
+    &__items {
+        display: flex;
+        margin-top: 22*$margin-step;
+    }
+
+    &__item {
+        &--right {
+            margin-left: 32*$margin-step;
+        }
+    }
+
+    &__map {
+        margin-top: 10*$margin-step;
+    }
+
+    &__text {
+        overflow-wrap: break-word;
+        text-align: start;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 28px;
+
+        &--down {
+            margin-top: 10*$margin-step;
+        }
+    }
+
+    &__logos {
+        height: 100px;
+    }
+
+    &__group-list {
+        padding: 0*$margin-step;
+        list-style-position: inside;
+        margin-top: 15*$margin-step;
+        list-style-image: url('@/assets/Ellipse_4.svg');
+    }
+
+    &__group-item {
+        margin-left: 6*$margin-step;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 28px;
+        color: $dark-black;
+
+    }
+}

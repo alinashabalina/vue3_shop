@@ -6,10 +6,14 @@
     <CategoryMenu />
   </div>
   <div class="wrapper">
+    <ContactInfo />
+  </div>
+  <div class="wrapper">
     <PageFooter />
   </div>
 </template>
 
-<script lang="ts" src="./index-page.ts"></script>
-<style lang="scss" src="@/stylesheets/pages/_index-page.scss">
+<script lang="ts" src="./index-page.ts">
+</script>
+<style lang="scss" src="@/stylesheets/pages/index-page.scss">
 </style>
