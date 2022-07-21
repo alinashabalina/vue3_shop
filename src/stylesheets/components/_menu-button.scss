@@ -1,6 +1,4 @@
-$dark-black: #000000;
-$dark-white: #ffffff;
-$margin-step: 4px;
+@import '../abstracts/variables.scss';
 
 .header {
   &__button {
@@ -10,7 +8,7 @@ $margin-step: 4px;
     align-items: center;
 
     &-icon {
-      margin-right: 3*$margin-step;
+      margin-right: 0.6*$basic-step;
     }
   }
 }

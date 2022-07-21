@@ -6,4 +6,5 @@
 </template>
 
 <script lang="ts" src="./header-search.ts"></script>
-<style lang="scss" src="./header-search.scss"></style>
+<style lang="scss" src="@/stylesheets/components/_header-search.scss">
+</style>

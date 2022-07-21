@@ -1,11 +1,9 @@
-$margin-step: 4px;
-$light-black: #363636;
-$dark-white: #FFFFFF;
+@import '../abstracts/variables.scss';
 
 .footer {
   height: 324px;
   background: $light-black;
-  padding: 11*$margin-step 20*$margin-step 16*$margin-step 20*$margin-step;
+  padding: 2*$basic-step 4*$basic-step 3.2*$basic-step 4*$basic-step;
   box-sizing: border-box;
 
   &__wrapper {
@@ -16,8 +14,8 @@ $dark-white: #FFFFFF;
     }
 
     &--secondrow {
-      margin-top: 10*$margin-step;
-      margin-bottom: 17*$margin-step;
+      margin-top: 2*$basic-step;
+      margin-bottom: 3.4*$basic-step;
     }
   }
 
@@ -66,8 +64,14 @@ $dark-white: #FFFFFF;
     height: 32px;
 
     &-icon {
-      margin-left: 3*$margin-step;
-      margin-right: 3*$margin-step;
+      margin-left: 0.6*$basic-step;
+      margin-right: 0.6*$basic-step;
+      opacity: 0.5;
+
+      &:hover {
+        opacity: 1;
+      }
+
     }
   }
 

@@ -1,5 +1,4 @@
-$light-yellow: #F7E296;
-$margin-step: 4px;
+@import '../abstracts/variables.scss';
 
 .header {
 
@@ -13,7 +12,7 @@ $margin-step: 4px;
     background-color: $light-yellow;
     position: relative;
     height: 206px;
-    padding: 11*$margin-step 15*$margin-step 0 15*$margin-step;
+    padding: 2.2*$basic-step 3*$basic-step 0 3*$basic-step;
     box-sizing: border-box;
 
     &-wrapper {
@@ -22,9 +21,9 @@ $margin-step: 4px;
 
     &-logo {
       position: absolute;
-      top: -5*$margin-step;
+      top: -$basic-step;
       width: 163px;
-      left: 15*$margin-step;
+      left: 3*$basic-step;
 
       &:hover {
         opacity: 0.6;
@@ -42,7 +41,7 @@ $margin-step: 4px;
 
         &--compare {
           margin-left: auto;
-          margin-right: 10*$margin-step;
+          margin-right: 2*$basic-step;
         }
 
         &:hover {
@@ -54,7 +53,7 @@ $margin-step: 4px;
     &-secondarymenu {
       width: 1040px;
       display: flex;
-      margin-top: 12*$margin-step;
+      margin-top: 2.4*$basic-step;
 
       button {
         border: none;
@@ -74,7 +73,7 @@ $margin-step: 4px;
         background-color: inherit;
 
         &-pic {
-          margin-left: $margin-step;
+          margin-left: 0.2*$basic-step;
         }
 
         &--choose {
@@ -82,8 +81,8 @@ $margin-step: 4px;
         }
 
         &--warranty {
-          margin-right: 25*$margin-step;
-          margin-left: 15*$margin-step;
+          margin-right: 5*$basic-step;
+          margin-left: 3*$basic-step;
         }
 
         &:hover {
