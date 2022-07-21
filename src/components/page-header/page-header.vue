@@ -36,5 +36,5 @@
 </template>
 
 <script lang="ts" src="./page-header.ts"></script>
-<style lang="scss" src="./page-header.scss">
+<style lang="scss" src="@/stylesheets/layout/_page-header.scss">
 </style>

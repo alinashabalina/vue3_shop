@@ -1,0 +1,60 @@
+@import '../abstracts/variables.scss';
+
+
+.contact-info {
+    min-height: 500px;
+    display: block;
+    margin-top: 4.25*$basic-step;
+    margin-bottom: 4.25*$basic-step;
+
+    &__items {
+        display: flex;
+        margin-top: 4.25*$basic-step;
+    }
+
+    &__item {
+        &--right {
+            margin-left: 6.25*$basic-step;
+        }
+    }
+
+    &__map {
+        margin-top: 2*$basic-step;
+    }
+
+    &__text {
+        overflow-wrap: break-word;
+        text-align: start;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 28px;
+
+        &--down {
+            margin-top: 2*$basic-step;
+        }
+    }
+
+    &__logos {
+        height: 100px;
+    }
+
+    &__group-list {
+        padding: 0;
+        list-style-position: inside;
+        margin-top: 3*$basic-step;
+        list-style-image: url('@/assets/Ellipse_4.svg');
+    }
+
+    &__group-item {
+        margin-left: 1.2*$basic-step;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 28px;
+        color: $dark-black;
+
+    }
+}

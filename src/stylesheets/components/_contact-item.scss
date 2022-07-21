@@ -1,0 +1,27 @@
+@import '../abstracts/variables.scss';
+
+.contact-item {
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+
+    &__rectangle {
+        width: 80px;
+        height: 7px;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 47px;
+        line-height: 58px;
+        letter-spacing: 0.2em;
+        color: $dark-black;
+        margin-top: 2.25*$basic-step;
+        text-align: start;
+    }
+
+    &__button {
+        margin-top: auto;
+    }
+}
