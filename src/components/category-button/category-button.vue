@@ -8,5 +8,5 @@
 </template>
 
 <script lang="ts" src="./category-button.ts"></script>
-<style lang="scss" src="./category-button.scss">
+<style lang="scss" src="@/stylesheets/components/_category-button.scss">
 </style>

@@ -11,5 +11,5 @@
 </template>
 
 <script lang="ts" src="./index-page.ts"></script>
-<style lang="scss" src="./index-page.scss">
+<style lang="scss" src="@/stylesheets/pages/_index-page.scss">
 </style>

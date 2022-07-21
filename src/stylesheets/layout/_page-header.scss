@@ -1,3 +1,5 @@
+@import '../abstracts/variables.scss';
+
 .header {
 
   &__search-field {
@@ -7,10 +9,10 @@
   }
 
   &__rectangle {
-    background-color: #f7e296;
+    background-color: $light-yellow;
     position: relative;
     height: 206px;
-    padding: 44px 60px 0 60px;
+    padding: 2.2*$basic-step 3*$basic-step 0 3*$basic-step;
     box-sizing: border-box;
 
     &-wrapper {
@@ -19,9 +21,13 @@
 
     &-logo {
       position: absolute;
-      top: -20px;
+      top: -$basic-step;
       width: 163px;
-      left: 60px;
+      left: 3*$basic-step;
+
+      &:hover {
+        opacity: 0.6;
+      }
     }
 
     &-menu {
@@ -35,17 +41,19 @@
 
         &--compare {
           margin-left: auto;
-          margin-right: 40px;
+          margin-right: 2*$basic-step;
+        }
+
+        &:hover {
+          opacity: 0.6;
         }
       }
     }
 
     &-secondarymenu {
-      position: absolute;
       width: 1040px;
-      right: 60px;
-      top: 134px;
       display: flex;
+      margin-top: 2.4*$basic-step;
 
       button {
         border: none;
@@ -65,7 +73,7 @@
         background-color: inherit;
 
         &-pic {
-          margin-left: 4px;
+          margin-left: 0.2*$basic-step;
         }
 
         &--choose {
@@ -73,8 +81,12 @@
         }
 
         &--warranty {
-          margin-right: 100px;
-          margin-left: 60px;
+          margin-right: 5*$basic-step;
+          margin-left: 3*$basic-step;
+        }
+
+        &:hover {
+          opacity: 0.6;
         }
       }
     }

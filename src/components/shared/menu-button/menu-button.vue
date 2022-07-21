@@ -6,5 +6,5 @@
 </template>
 
 <script lang="ts" src="./menu-button.ts"></script>
-<style lang="scss" src="./menu-button.scss">
+<style lang="scss" src="@/stylesheets/components/_menu-button.scss">
 </style>

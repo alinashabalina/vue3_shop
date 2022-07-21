@@ -1,0 +1,23 @@
+@import '../abstracts/variables.scss';
+
+
+.search {
+  ::placeholder {
+    font-size: 15px;
+    opacity: 0.2;
+  }
+
+  :hover::placeholder {
+    opacity: 0.7;
+  }
+
+  &__icon {
+    margin-right: $basic-step;
+  }
+
+  &__field {
+    border: none;
+    width: 125px;
+    background-color: $light-yellow;
+  }
+}
