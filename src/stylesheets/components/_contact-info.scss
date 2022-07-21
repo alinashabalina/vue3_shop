@@ -1,25 +1,25 @@
-$margin-step: 4px;
-$dark-black: #000000;
+@import '../abstracts/variables.scss';
+
 
 .contact-info {
     min-height: 500px;
     display: block;
-    margin-top: 22*$margin-step;
-    margin-bottom: 22*$margin-step;
+    margin-top: 4.25*$basic-step;
+    margin-bottom: 4.25*$basic-step;
 
     &__items {
         display: flex;
-        margin-top: 22*$margin-step;
+        margin-top: 4.25*$basic-step;
     }
 
     &__item {
         &--right {
-            margin-left: 32*$margin-step;
+            margin-left: 6.25*$basic-step;
         }
     }
 
     &__map {
-        margin-top: 10*$margin-step;
+        margin-top: 2*$basic-step;
     }
 
     &__text {
@@ -32,7 +32,7 @@ $dark-black: #000000;
         line-height: 28px;
 
         &--down {
-            margin-top: 10*$margin-step;
+            margin-top: 2*$basic-step;
         }
     }
 
@@ -41,14 +41,14 @@ $dark-black: #000000;
     }
 
     &__group-list {
-        padding: 0*$margin-step;
+        padding: 0;
         list-style-position: inside;
-        margin-top: 15*$margin-step;
+        margin-top: 3*$basic-step;
         list-style-image: url('@/assets/Ellipse_4.svg');
     }
 
     &__group-item {
-        margin-left: 6*$margin-step;
+        margin-left: 1.2*$basic-step;
         font-family: 'Gilroy';
         font-style: normal;
         font-weight: 800;

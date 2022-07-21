@@ -34,5 +34,5 @@
 
 <script lang="ts" src="./contact-info.ts">
 </script>
-<style lang="scss" src="./contact-info.scss">
+<style lang="scss" src="@/stylesheets/components/_contact-info.scss">
 </style>

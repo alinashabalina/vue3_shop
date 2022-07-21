@@ -6,5 +6,5 @@
 </template>
 
 <script lang="ts" src="./rectangle-button.ts"></script>
-<style lang="scss" src="./rectangle-button.scss">
+<style lang="scss" src="@/stylesheets/components/_rectangle-button.scss">
 </style>

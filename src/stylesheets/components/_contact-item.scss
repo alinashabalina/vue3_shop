@@ -1,5 +1,4 @@
-$margin-step: 4px;
-$dark-black: #000000;
+@import '../abstracts/variables.scss';
 
 .contact-item {
     height: 580px;
@@ -18,7 +17,7 @@ $dark-black: #000000;
         line-height: 58px;
         letter-spacing: 0.2em;
         color: $dark-black;
-        margin-top: 12*$margin-step;
+        margin-top: 2.25*$basic-step;
         text-align: start;
     }
 

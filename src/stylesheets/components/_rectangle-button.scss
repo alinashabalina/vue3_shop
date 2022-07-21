@@ -1,5 +1,4 @@
-$dark-white: #FFFFFF;
-$margin-step: 4px;
+@import '../abstracts/variables.scss';
 
 .rectangle-button {
     border: none;
@@ -7,7 +6,7 @@ $margin-step: 4px;
     width: 260px;
     height: 22px;
     position: relative;
-    padding: 0*$margin-step;
+    padding: 0;
 
     &__image {
         margin-right: auto;
@@ -24,9 +23,9 @@ $margin-step: 4px;
         letter-spacing: 0.2em;
         text-transform: uppercase;
         position: absolute;
-        top: $margin-step/4;
-        left: 0*$margin-step;
-        right: 0*$margin-step;
+        top: 0.05*$basic-step;
+        left: 0;
+        right: 0;
 
     }
 }

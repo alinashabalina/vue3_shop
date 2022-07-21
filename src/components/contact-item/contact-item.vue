@@ -9,5 +9,5 @@
 
 <script lang="ts" src="./contact-item.ts">
 </script>
-<style lang="scss" src="./contact-item.scss">
+<style lang="scss" src="@/stylesheets/components/_contact-item.scss">
 </style>
